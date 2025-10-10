@@ -20,3 +20,19 @@ The following bioinformatics steps were performed for analysis of the data
 
 # Samples and Grouping information
 Following samples were analyzed.
+### Table 1. Samples Information
+
+| Sl.no | Sample ID | Sample Type |
+| :---: | :---------: | :-----------: |
+| 1 | HRR568844 | HT |
+| 2 | HRR568887 | Non-HT |
+| 3 | HRR568888 | Non-HT |
+| 4 | HRR568894 | HT |
+
+---
+
+### Table 2. Grouping information
+
+| Comparision | Grouping Type |
+| :---------: | :-------------: |
+| 1. | HT vs Non-HT |
