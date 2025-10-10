@@ -97,4 +97,8 @@ to the same group must be clustered together.
 **9. Immune Cell Type Deconvolution:** *Cibersortx:* Cell type deconvolution was performed using cibersortx using LM22 Signature matrix.The distribution of these cell type across the sample condition has been visualized as boxplot. The pvalue was calculated using T.test
 [Figure 7:Box plot Shows the distribution of all celltypes across the samples condition](https://github.com/abdulaziz-khaled/mRNA-Sequence-Analysis-of-Hypothyroidism/blob/main/6.%20Cibersortx/boxplot_Ttest_cibersortx_%20differential%20cell%20types.pdf)
 The genes belonging to T cell regulation has been visualized as boxplot across the sample condition. The pvalue was calculated using T.test
-[Figure 8: Box plot Shows the distribution of all T cell regulation genes across the samples condition](
+[Figure 8: Box plot Shows the distribution of all T cell regulation genes across the samples condition](https://github.com/abdulaziz-khaled/mRNA-Sequence-Analysis-of-Hypothyroidism/blob/main/6.%20Cibersortx/boxplot_Tregs_MarkerGenes_Ttest.pdf)
+
+**10. Kegg Pathview:** Kegg pathways such as NF-Kappa B signaling pathway, TGF-beta signaling pathway,T cell receptor signaling pathway has been visualized using significant pvalue genes.
+Figure 8: Kegg pathview visualization for a) NF-Kappa B signaling pathway, b) T cell receptor signaling pathway c)TGF-beta signaling pathway
+
