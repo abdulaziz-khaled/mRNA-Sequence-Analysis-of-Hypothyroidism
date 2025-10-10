@@ -100,5 +100,10 @@ The genes belonging to T cell regulation has been visualized as boxplot across t
 [Figure 8: Box plot Shows the distribution of all T cell regulation genes across the samples condition](https://github.com/abdulaziz-khaled/mRNA-Sequence-Analysis-of-Hypothyroidism/blob/main/6.%20Cibersortx/boxplot_Tregs_MarkerGenes_Ttest.pdf)
 
 **10. Kegg Pathview:** Kegg pathways such as NF-Kappa B signaling pathway, TGF-beta signaling pathway,T cell receptor signaling pathway has been visualized using significant pvalue genes.
-Figure 8: Kegg pathview visualization for a) NF-Kappa B signaling pathway, b) T cell receptor signaling pathway c)TGF-beta signaling pathway
+Figure 8: Kegg pathview visualization for 
+a) NF-Kappa B signaling pathway
+
+b) T cell receptor signaling pathway 
+
+c)TGF-beta signaling pathway
 
