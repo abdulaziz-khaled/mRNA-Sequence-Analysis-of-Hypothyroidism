@@ -76,5 +76,7 @@ sequenced reads.
 **4. Hierarchial Clustering:** Clustering is a statistical technique used to identify the similarity between data. We used hclust R function together with average linkage and euclidean distance to perform clustering, samples whose gene expression are similar try to cluster together as shown in [Figure 3](https://github.com/abdulaziz-khaled/mRNA-Sequence-Analysis-of-Hypothyroidism/blob/main/3.Normalization%20and%20Sample%20Clustering/Protein%20Coding%20Genes/Dendogram_sample.pdf). Ideally, samples should cluster according to the group i.e Samples belonging
 to the same group must be clustered together.
 
-**5. Sample Correlation:** A sample-sample correlation heatmap shows how similar samples are based on their gene expression. High correlation among replicates indicates similarity, while low correlation can reveal outliers and clustering of samples based on their type determines their similarity.
+**5. Sample Correlation:** A sample-sample correlation heatmap shows how similar samples are based on their gene expression. High correlation among replicates indicates similarity, while low correlation can reveal outliers and clustering of samples based on their type determines their similarity. [Figure 4 : represent correlation of samples along with its replicates](https://github.com/abdulaziz-khaled/mRNA-Sequence-Analysis-of-Hypothyroidism/blob/main/3.Normalization%20and%20Sample%20Clustering/Protein%20Coding%20Genes/Correlation_Unsupervised_Heatmap.pdf).
+
+
 
