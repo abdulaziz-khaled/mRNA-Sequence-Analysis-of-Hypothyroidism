@@ -7,8 +7,16 @@ The following bioinformatics steps were performed for analysis of the data
 
 # Bioinformatic Steps
 **1.Read quality check:** The following parameters from raw fastq files were checked using `fastqc tool` (version – 0.11.9) as part of quality check- Base quality score distribution,Sequence quality score distribution, Average base content per read, GC distribution in the reads, PCR amplification issue, Check for over-represented sequences and Adapter trimming. Based on the quality report of fastq files trimming on raw read was performed to only retain high quality sequence for further analysis. In addition, the low-quality sequence reads were excluded from the analysis. The adapter trimming was performed using `Cutadapt` (Version 4.9).
+
 **2.Read alignment:** The paired-end reads are aligned to the reference Human genome (GRCh38.primary_assembly.genome). Alignment of reads was performed using `STAR` (version - 2.7.11b)
+
 **3.Alignment quality screening:** Aligned reads were analyzed for their quality check related statistics; against both mapping quality as well as read alignment distribution against reference transcriptome features using `Qualimap`. Factors like read distribution, Alignment distribution as well as splice junction distribution were analyzed separately. rRNA contamination was screened using `rSeqQC` package.
+
 **4.Expression estimation:** The aligned reads were used for estimating expression of the genes. The raw read counts were estimated using `FeatureCount` (version - 2.0.8) across all samples The raw read count across all samples were then normalized using `DESeq2` package in `R`.
+
 **5.Differential expression analysis:** The raw read count data were normalized using `DESeq2`. The ratio of normalized read counts for HT over Non-HT was taken as the fold change. Genes were first filtered based on the p-value (<= 0.05) for statistical significance. Those genes which were found to have log2(foldchange) <= -1 and log2(foldchange) >= 1 were considered as downregulated or upregulated, respectively.
+
 **6.Functional Enrichment Analysis:** Functional over-representation analysis was performed for HT and Non-HT comparision separately for upregulated and downregulated genes using `clusterprofiler` R package ontologies such as Biological Process(BP), Molecular Function(MF),Cellular Component(CC), `Kegg` Pathways were analysed.
+
+# Samples and Grouping information
+Following samples were analyzed.
