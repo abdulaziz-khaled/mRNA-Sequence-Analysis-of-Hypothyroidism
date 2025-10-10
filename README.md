@@ -109,9 +109,6 @@ b) T cell receptor signaling pathway
 c)TGF-beta signaling pathway
 ![image alt](https://github.com/abdulaziz-khaled/mRNA-Sequence-Analysis-of-Hypothyroidism/blob/1e52cba1b16c09eac57850a39cf8ca6adcccb7c1/7.%20Kegg_Pathview/TGF-Beta-Signaling-Pathway.png)
 
-# 📕 Note
-The T cell marker genes, individually show an upregulation in HT while expected hypothesis was in opposite direction this is because of less number of samples selected. But the Tregs in whole when deconvoluted with `Cibersortx` shows a suppressed state in HT relative to Non-HT
-
 # ☎️ Contact of Discussion
 
 **• Email:** abdelaziz.khaled.eg@gmail.com
