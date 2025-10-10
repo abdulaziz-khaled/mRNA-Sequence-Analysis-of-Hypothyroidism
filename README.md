@@ -38,8 +38,10 @@ Following samples were analyzed.
 | 1. | HT vs Non-HT |
 
 # Results 
+
 Table 3 summarizes the overall data generated and the average read quality
 observed across the reads.
+
 ---
 ### Table 3. Raw Data QC Summary
 
