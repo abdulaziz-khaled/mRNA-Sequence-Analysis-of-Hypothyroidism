@@ -90,7 +90,5 @@ to the same group must be clustered together.
 | HT vs Non-HT | 1502 | 404 |
 
 **7. Volcano Plots:** Volcano plots are a type of scatter plot commonly used to display the results of a differential gene expression analysis. They can be used to quickly identify genes whose expression is significantly altered in a perturbation, and to assess the global similarity of gene expression in two groups of biological samples. Each point in the scatter plot represents a gene; the axes display the significance versus fold-change estimated by the differential expression analysis. Green points indicate significantly downregulated and red points indicate significantly upregulated genes and grey ones represent statistically non-significant genes. Every dot in the plot represents a gene. Green points indicate significantly downregulated genes and red points indicate significantly upregulated genes.
-[Figure 5: Volcano plot for the given comparison which displays log2 -fold
-change and statistical significance (p-value*) of each gene calculated based
-on differential gene expression analysis](
+![image alt](https://github.com/abdulaziz-khaled/mRNA-Sequence-Analysis-of-Hypothyroidism/blob/91e59278dcab7a553c114d21b76794b4cb41e0f5/4.%20Differential%20Gene%20Expression%20Reports/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202025-10-10%20155138.png)
 
