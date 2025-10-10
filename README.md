@@ -116,6 +116,6 @@ The T cell marker genes, individually show an upregulation in HT while expected 
 
 **• Email:** abdelaziz.khaled.eg@gmail.com
 
-**• LinkedIn:** https://www.linkedin.com/in/abdul-aziz-khaled)
+**• LinkedIn:** https://www.linkedin.com/in/abdul-aziz-khaled
 
 **• Telegram:** https://t.me/zizo_elamir
