@@ -1,11 +1,11 @@
-# Executive Data Analysis Summary
+# 📃 Executive Data Analysis Summary
 I analyzed a total of 4 Human samples [Study id- HRA001684](https://www.nature.com/articles/s41467-022-28120-2#data-availability). Samples and Grouping information are provided in Table 1 and Table 2. The raw reads were filtered using Cutadapt for quality scores and adapters. Filtered reads were aligned to the Human genome (GRCh38.primary_assembly.genome.) using splice aware aligner STAR to quantify reads mapped to each gene. Percentage of uniquely aligned reads ranged between 83% – 89% across all the samples. The aligned data quality check was performed using Qualimap. rRNA contamination was screened using RSeqQC package. Total number of uniquely mapped reads were counted using FeatureCounts. The uniquely mapped reads were then subjected to differential gene expression using DESeq2 in R. Total number of differentially expressed genes are given in the Table 5 for the respective comparisons.
 
-# Methods – Data Analysis
+# ⚙️ Methods – Data Analysis
 The following bioinformatics steps were performed for analysis of the data
 ![image alt](https://github.com/abdulaziz-khaled/mRNA-Sequence-Analysis-of-Hypothyroidism/blob/fa2e71426d05b1a0a0b164630077f35975712851/photo_2025-10-10_14-50-56.jpg)
 
-# Bioinformatic Steps
+# 🪜 Bioinformatic Steps
 **1.Read quality check:** The following parameters from raw fastq files were checked using `fastqc tool` (version – 0.11.9) as part of quality check- Base quality score distribution,Sequence quality score distribution, Average base content per read, GC distribution in the reads, PCR amplification issue, Check for over-represented sequences and Adapter trimming. Based on the quality report of fastq files trimming on raw read was performed to only retain high quality sequence for further analysis. In addition, the low-quality sequence reads were excluded from the analysis. The adapter trimming was performed using `Cutadapt` (Version 4.9).
 
 **2.Read alignment:** The paired-end reads are aligned to the reference Human genome (GRCh38.primary_assembly.genome). Alignment of reads was performed using `STAR` (version - 2.7.11b)
@@ -37,7 +37,7 @@ Following samples were analyzed.
 | :---------: | :-------------: |
 | 1. | HT vs Non-HT |
 
-# Results 
+# 🗓️ Results 
 
 **1. Data QC Summary:** Table 3 summarizes the overall data generated and the average read quality
 observed across the reads.
@@ -101,9 +101,21 @@ The genes belonging to T cell regulation has been visualized as boxplot across t
 
 **10. Kegg Pathview:** Kegg pathways such as NF-Kappa B signaling pathway, TGF-beta signaling pathway,T cell receptor signaling pathway has been visualized using significant pvalue genes.
 Figure 8: Kegg pathview visualization for 
+
 a) NF-Kappa B signaling pathway
 ![image alt](https://github.com/abdulaziz-khaled/mRNA-Sequence-Analysis-of-Hypothyroidism/blob/7f4ae5b791b77abde57222cb36d75f3ac5968c1f/7.%20Kegg_Pathview/NF-Kappa-B-Signalling-Pathway.png)
 b) T cell receptor signaling pathway 
 ![image alt](https://github.com/abdulaziz-khaled/mRNA-Sequence-Analysis-of-Hypothyroidism/blob/fe0536a024621262ac02fabd34123f558ca08077/7.%20Kegg_Pathview/T-Cell-Receptor-Signaling-Pathway.png)
 c)TGF-beta signaling pathway
 ![image alt](https://github.com/abdulaziz-khaled/mRNA-Sequence-Analysis-of-Hypothyroidism/blob/1e52cba1b16c09eac57850a39cf8ca6adcccb7c1/7.%20Kegg_Pathview/TGF-Beta-Signaling-Pathway.png)
+
+# 📕 Note
+The T cell marker genes, individually show an upregulation in HT while expected hypothesis was in opposite direction this is because of less number of samples selected. But the Tregs in whole when deconvoluted with `Cibersortx` shows a suppressed state in HT relative to Non-HT
+
+# ☎️ Contact of Discussion
+
+**• Email:** abdelaziz.khaled.eg@gmail.com
+
+**• LinkedIn:** https://www.linkedin.com/in/abdul-aziz-khaled)
+
+**• Telegram:** https://t.me/zizo_elamir
