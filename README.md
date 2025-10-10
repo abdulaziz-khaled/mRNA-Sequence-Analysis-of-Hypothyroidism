@@ -78,5 +78,19 @@ to the same group must be clustered together.
 
 **5. Sample Correlation:** A sample-sample correlation heatmap shows how similar samples are based on their gene expression. High correlation among replicates indicates similarity, while low correlation can reveal outliers and clustering of samples based on their type determines their similarity. [Figure 4 : represent correlation of samples along with its replicates](https://github.com/abdulaziz-khaled/mRNA-Sequence-Analysis-of-Hypothyroidism/blob/main/3.Normalization%20and%20Sample%20Clustering/Protein%20Coding%20Genes/Correlation_Unsupervised_Heatmap.pdf).
 
+**6. Differential Gene Expression (DGE) Analysis:** Gene expression signatures are alterations in the patterns of gene expression that occur due to cellular perturbations such as drug treatments, gene knockdown or diseases. They can be quantified using differential gene expression (DGE) methods, which compare gene expression between two groups of samples to identify genes whose expression is significantly altered in the perturbation. The signature table is used to display the results of such analyses.
 
+---
+### Table 5. Significant differentially expressed genes summary
+
+*Significant – P-value <= 0.05 and Log2Fc >= 1 and <= -1*
+
+| Comparisions | Upregulated Genes | Downregulated Genes |
+| :---: | :---: | :---: |
+| HT vs Non-HT | 1502 | 404 |
+
+**7. Volcano Plots:** Volcano plots are a type of scatter plot commonly used to display the results of a differential gene expression analysis. They can be used to quickly identify genes whose expression is significantly altered in a perturbation, and to assess the global similarity of gene expression in two groups of biological samples. Each point in the scatter plot represents a gene; the axes display the significance versus fold-change estimated by the differential expression analysis. Green points indicate significantly downregulated and red points indicate significantly upregulated genes and grey ones represent statistically non-significant genes. Every dot in the plot represents a gene. Green points indicate significantly downregulated genes and red points indicate significantly upregulated genes.
+[Figure 5: Volcano plot for the given comparison which displays log2 -fold
+change and statistical significance (p-value*) of each gene calculated based
+on differential gene expression analysis](
 
