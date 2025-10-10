@@ -39,7 +39,7 @@ Following samples were analyzed.
 
 # Results 
 
-Table 3 summarizes the overall data generated and the average read quality
+**1. Data QC Summary:** Table 3 summarizes the overall data generated and the average read quality
 observed across the reads.
 
 ---
@@ -54,3 +54,19 @@ observed across the reads.
 
 Data generation for each sample was in the range of 2 GB to 7 GB and the
 average % of reads with quality > phred score 30 is~98%.
+
+**2. Alignment Summary:** Samples were aligned to Human reference genome. The mapping statistics
+showed the alignment of uniquely mapped reads were at the range of 87-
+89%. Unaligned read were at the range of 3-7% and multimapped reads
+~7.5%. The below Table 4 summarizes the alignment summary of the
+sequenced reads.
+
+---
+### Table 4. Read Alignment Summary
+
+| Sample id | Sample Name | Paired reads after Adapter Trimming | Uniquely mapped reads % | Multimapped reads % | Reads unaligned % | Exonic % | Intronic % | Intergenic % | Mean mapping quality | Mean coverage | Rseqc contamination check | 5'-3'bias | Known splicing junction | Partly known splicing junction | Novel splicing junction |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| HRR568844 | HT | 23553623 | 87.9 | 5.4 | 7.17 | 70.1 | 26.98 | 2.91 | 30.98 | 5.69 | 3.8 | 1.48 | 76 | 3.2 | 20.1 |
+| HRR568887 | Non-HT | 7689624 | 83.9 | 9.3 | 7.28 | 64.8 | 32.3 | 2.8 | 33.33 | 2.29 | 11.9 | 1.36 | 72 | 11.61 | 15.95 |
+| HRR568888 | Non-HT | 6890927 | 88.4 | 7.7 | 3.3 | 64 | 33.2 | 2.8 | 30.99 | 2.30 | 11.3 | 1.38 | 71 | 12.32 | 16.64 |
+| HRR568894 | HT | 7497321 | 89.3 | 7.8 | 4.26 | 73.2 | 24.7 | 2.1 | 26.08 | 3.09 | 11.2 | 1.37 | 71 | 11.77 | 16.24 |
