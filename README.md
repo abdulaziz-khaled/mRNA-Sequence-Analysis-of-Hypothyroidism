@@ -36,3 +36,19 @@ Following samples were analyzed.
 | Comparision | Grouping Type |
 | :---------: | :-------------: |
 | 1. | HT vs Non-HT |
+
+# Results 
+Table 3 summarizes the overall data generated and the average read quality
+observed across the reads.
+---
+### Table 3. Raw Data QC Summary
+
+| Sample Name | Sample Type | Total paired reads (Before adapter trimming) | Data generated (Gb) | Total paired reads (After adapter trimming) | Percentage of reads remaining after trimming (%) | Avg base quality (phred) after trimming (%) | Total (reads) >=Q30% after trimming (%) | GC% after trimming (%) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| HRR568844 | HT | 23772792 | 7.13 | 23553623 | 99.0 | 38.9 | 99.2 | 47 |
+| HRR568887 | Non-HT | 8438394 | 2.5 | 7689624 | 91.1 | 36.5 | 97.7 | 47 |
+| HRR568888 | Non-HT | 7535140 | 2.2 | 6890927 | 91.4 | 36.6 | 97.7 | 50 |
+| HRR568894 | HT | 8186467 | 2.4 | 7497321 | 91.5 | 36.4 | 97.7 | 50.5 |
+
+Data generation for each sample was in the range of 2 GB to 7 GB and the
+average % of reads with quality > phred score 30 is~98%.
