@@ -71,14 +71,4 @@ sequenced reads.
 | HRR568888 | Non-HT | 6890927 | 88.4 | 7.7 | 3.3 | 64 | 33.2 | 2.8 | 30.99 | 2.30 | 11.3 | 1.38 | 71 | 12.32 | 16.64 |
 | HRR568894 | HT | 7497321 | 89.3 | 7.8 | 4.26 | 73.2 | 24.7 | 2.1 | 26.08 | 3.09 | 11.2 | 1.37 | 71 | 11.77 | 16.24 |
 
-**3. Principal Component Analysis (PCA):** Principal Component Analysis (PCA) is a statistical technique used to
-identify global patterns in high-dimensional datasets. It is commonly used to
-explore the similarity of biological samples in RNA-seq datasets. To achieve
-this, gene expression values are transformed into Principal Components
-(PCs), a set of linearly uncorrelated features which represent the most
-relevant sources of variance in the data, and subsequently visualized using a
-scatter plot.
-The scatter plot of the first two principal components (pcs) of the data for
-given samples are shown in Figure 2. Each point represents the sample.
-Samples with similar gene expression profiles should come closer in the two-
-dimensional space.
+**3. Principal Component Analysis (PCA):** Principal Component Analysis (PCA) is a statistical technique used to identify global patterns in high-dimensional datasets. It is commonly used to explore the similarity of biological samples in RNA-seq datasets. To achieve this, gene expression values are transformed into Principal Components (PCs), a set of linearly uncorrelated features which represent the most relevant sources of variance in the data, and subsequently visualized using a scatter plot. The scatter plot of the first two principal components (pcs) of the data for given samples are shown in [Figure 2. Each point represents the sample](https://github.com/abdulaziz-khaled/mRNA-Sequence-Analysis-of-Hypothyroidism/blob/main/3.Normalization%20and%20Sample%20Clustering/Protein%20Coding%20Genes/PCA.pdf). Samples with similar gene expression profiles should come closer in the two-dimensional space.
